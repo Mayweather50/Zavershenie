@@ -1,0 +1,217 @@
+﻿<Page x:Class="WPF_Biblioteka.СС.Novinki"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:cc="clr-namespace:WPF_Biblioteka.СС"
+
+      xmlns:local="clr-namespace:WPF_Biblioteka.СС"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="Novinki">
+
+    <ScrollViewer Margin="12,95">
+
+        <StackPanel>
+            <Grid
+                Margin="120,100,50,20">
+                <TextBlock 
+                    Foreground="{StaticResource SecondBrush}"
+                    FontWeight="SemiBold"
+                    FontSize="22"
+                    Text="Новинки"
+                    VerticalAlignment="Bottom"/>
+
+            </Grid>
+
+
+
+
+
+
+            <StackPanel
+                Orientation="Horizontal"
+                Margin="110,10,2,0" Height="376">
+
+
+
+
+
+
+                <!--<Grid Background="{StaticResource PrimaryBrush}"
+                      Height="315"
+                      Width="615">
+
+                    
+                <Image Source="Assets/gg.png" Margin="-12,0,118,79"
+                           Stretch="UniformToFill"/>
+                
+                    
+
+                </Grid>-->
+
+
+
+
+
+
+
+                <StackPanel
+                    Orientation="Horizontal"
+                    Margin="10,10,120,0" Width="1236">
+
+
+
+
+
+
+
+
+
+
+                    <cc:frai
+                    
+                        Margin="0,10,14,2"/>
+                    <Button Padding="5"  Click="Button_Sapiens" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-220,314,3,24" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Краткая история человеч..
+
+                    </Button>
+
+
+                    <cc:idol
+                      
+                        Margin="0,10,15,2"/>
+                    <Button Padding="5"  Click="Button_Sapiens" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-221,316,3,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Гарри Поттер
+
+                    </Button>
+
+
+                    <cc:stiven_king
+                     
+                        Margin="0,10,15,2"/>
+                    <Button Padding="5"  Click="Button_Sapiens" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-221,314,3,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Тонкое искусство пофигиз..
+
+                    </Button>
+
+
+
+                    <cc:WPFbook
+                     
+                        Margin="0,10,15,2"/>
+                    <Button Padding="5"  Click="Button_Sapiens" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-221,314,3,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Все хреново
+
+                    </Button>
+
+
+                    <cc:Steklo
+
+                       
+                        Margin="0,10,15,2"/>
+                    <Button Padding="5"  Click="Button_Sapiens" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-221,316,3,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Путь
+
+                    </Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </StackPanel>
+
+
+
+
+
+
+
+            </StackPanel>
+
+            <Grid
+                Margin="120,140,50,30">
+                <TextBlock 
+                    Foreground="{StaticResource SecondBrush}"
+                    FontWeight="SemiBold"
+                    FontSize="22"
+                    Text="Лучшие Популярные книги"
+                    VerticalAlignment="Bottom" Height="41" Margin="0,0,0,-57"/>
+
+            </Grid>
+
+
+
+
+
+
+            <StackPanel  Orientation="Horizontal"
+                    Margin="118,74,87,60" Height="381">
+                <cc:Fahrenheit
+                      
+                        Margin="0,30,15,10"/>
+                <Button Padding="5"  Click="Button_Fahrenheit" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-213,336,12,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">451℉
+
+                </Button>
+
+                <cc:Beda
+                      
+                        Margin="5,35,15,10"/>
+                <Button Padding="5"  Click="Button_Beda" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-213,336,12,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Надвигается беда
+
+                </Button>
+
+
+
+
+
+
+                <cc:Hobbit
+                      
+                        Margin="5,35,15,10"/>
+                <Button Padding="5"  Click="Button_Beda" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-213,336,12,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Хоббит
+
+                </Button>
+
+
+
+
+
+
+                <cc:Parfume
+                      
+                        Margin="5,35,15,10"/>
+                <Button Padding="5"  Click="Button_Beda" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-213,330,12,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Парфюмер
+
+                </Button>
+
+                <cc:Reincarnator
+                      
+                        Margin="5,35,15,10"/>
+                <Button Padding="5"  Click="Button_Beda" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-213,330,12,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Реинкарнатор
+
+                </Button>
+
+
+
+            </StackPanel>
+
+
+
+        </StackPanel>
+
+
+    </ScrollViewer>
+
+
+</Page>

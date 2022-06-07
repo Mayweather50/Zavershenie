@@ -1,0 +1,215 @@
+﻿<Page x:Class="WPF_Biblioteka.Book"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WPF_Biblioteka" xmlns:cc="clr-namespace:WPF_Biblioteka.СС"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="Book">
+
+
+    <ScrollViewer Margin="12,95">
+
+        <StackPanel>
+            <Grid
+                Margin="120,100,50,20">
+                <TextBlock 
+                    Foreground="{StaticResource SecondBrush}"
+                    FontWeight="SemiBold"
+                    FontSize="22"
+                    Text="Научная литература" 
+                    VerticalAlignment="Bottom"/>
+
+            </Grid>
+
+
+
+
+
+
+            <StackPanel
+                Orientation="Horizontal"
+                Margin="110,10,2,0" Height="376">
+
+
+
+
+
+
+                <!--<Grid Background="{StaticResource PrimaryBrush}"
+                      Height="315"
+                      Width="615">
+
+                    
+                <Image Source="Assets/gg.png" Margin="-12,0,118,79"
+                           Stretch="UniformToFill"/>
+                
+                    
+
+                </Grid>-->
+
+
+
+
+
+
+
+                <StackPanel
+                    Orientation="Horizontal"
+                    Margin="10,10,120,0" Width="1236">
+
+
+
+
+
+
+
+
+
+
+                    <cc:Vremeni
+                       
+                        Margin="0,10,14,2"/>
+                    <Button Padding="5"  Click="Button_vremeni" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-220,314,3,24" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Кратчайшая история времени
+
+                    </Button>
+
+
+                    <cc:Kvantovie_miri
+                      
+                        Margin="0,10,15,2"/>
+                    <Button Padding="5"  Click="Button_Kvantovie_miri" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-221,316,3,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Квантовые миры
+
+                    </Button>
+
+
+                    <cc:Astrofizika
+                      
+                        Margin="0,10,15,2"/>
+                    <Button Padding="5"  Click="Button_Astrofizika" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-221,314,3,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Астрофизика
+
+                    </Button>
+
+
+
+                    <cc:Stiven_hoking
+                     
+                        Margin="0,10,15,2"/>
+                    <Button Padding="5"  Click="Button_Stiven_hoking" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-221,314,3,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Краткая история времени
+
+                    </Button>
+
+
+                    <cc:Gen
+
+                       
+                        Margin="0,10,15,2"/>
+                    <Button Padding="5"  Click="Button_Gen" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-221,316,3,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Эгоистичный ген
+
+                    </Button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </StackPanel>
+
+
+
+
+
+
+
+            </StackPanel>
+
+            <Grid
+                Margin="120,140,50,30">
+                <TextBlock 
+                    Foreground="{StaticResource SecondBrush}"
+                    FontWeight="SemiBold"
+                    FontSize="22"
+                    Text="Литературная классика"
+                    VerticalAlignment="Bottom" Height="41" Margin="0,0,0,-57"/>
+
+            </Grid>
+
+
+
+
+
+
+            <StackPanel  Orientation="Horizontal"
+                    Margin="118,74,87,60" Height="381">
+                <cc:Raduga
+                      
+                        Margin="0,30,15,10"/>
+                <Button Padding="5"  Click="Button_Raduga" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-213,330,12,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Стоя под радугой
+
+                </Button>
+
+                <cc:Dostoevsky
+                      
+                        Margin="5,35,15,10"/>
+                <Button Padding="5"  Click="Button_Dostoevsky" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-213,330,12,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Преступление и наказание
+
+                </Button>
+
+
+
+
+
+
+                <cc:Zhivie
+                      
+                        Margin="5,35,15,10"/>
+                <Button Padding="5"  Click="Button_Zhivie" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-213,336,12,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Живые
+
+                </Button>
+
+
+
+
+
+
+                <cc:Instityt
+                      
+                        Margin="5,35,15,10"/>
+                <Button Padding="5"  Click="Button_Instityt" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-213,330,12,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Институт
+
+                </Button>
+
+                <cc:Zhakomin
+                      
+                        Margin="5,35,15,10"/>
+                <Button Padding="5"  Click="Button_Zhakomin" RenderTransformOrigin="0.904,2.406" Height="Auto" Margin="-213,330,12,20" Width="195" Background="#FF16181E" BorderBrush="#FF16181E">Жакомин
+
+                </Button>
+
+
+
+            </StackPanel>
+
+
+
+        </StackPanel>
+
+
+    </ScrollViewer>
+
+</Page>
